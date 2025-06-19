@@ -102,7 +102,10 @@
     background-color: blueviolet;
     cursor: pointer;
 }
-.btn-disabled{
-    background-color: dimgrey;
-    border: none;
+.user-details h5{
+  padding-left: 40px;
+  margin-top: 12px;
+}
+.user-details p{
+  padding-left: 40px;
 }

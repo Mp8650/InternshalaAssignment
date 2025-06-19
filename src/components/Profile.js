@@ -33,8 +33,8 @@ function Profile() {
       </div>
 
       <div className='container shadow-lg bg-secondary-emphasis m-3'>
-        <div className='row p-4 align-items-center'>
-          <div className='col-3 position-relative text-start'>
+        <div className='row p-4'>
+          <div className='col-3 position-relative ps-0 text-start'>
             <img
               src={user.photo || 'https://randomuser.me/api/portraits/women/44.jpg'}
               alt="Profile"
@@ -54,8 +54,8 @@ function Profile() {
             />
           </div>
 
-          <div className='col-9 text-start'>
-            <h3>{user.fullName}</h3>
+          <div className='user-details col-9 text-start ps-5'>
+            <h5>{user.fullName}</h5>
             <p className="text-muted">{user.email}</p>
           </div>
         </div>
