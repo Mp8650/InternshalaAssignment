@@ -1,4 +1,4 @@
-// Profile.js
+ // Profile.js
 import React, { useEffect, useState } from 'react';
 
 function Profile() {
@@ -27,13 +27,13 @@ function Profile() {
   if (!user) return <div className="container py-5">Loading...</div>;
 
   return (
-    <div className='container-fluid bg-white'>
+    <div className='container-fluid bg-white justify-content-start'>
       <div>
         <h1 className='col py-4'>Account Settings</h1>
       </div>
 
-      <div className='container shadow-lg bg-secondary-emphasis m-3'>
-        <div className='row p-4'>
+      <div className='container ms-0 shadow-lg bg-secondary-emphasis'>
+        <div className='row p-1 ms-0 text-start aline-items-center'>
           <div className='col-3 position-relative ps-0 text-start'>
             <img
               src={user.photo || 'https://randomuser.me/api/portraits/women/44.jpg'}
@@ -54,9 +54,9 @@ function Profile() {
             />
           </div>
 
-          <div className='user-details col-9 text-start ps-5'>
+          <div className='user-details col-9 text-start ps-3'>
             <h5>{user.fullName}</h5>
-            <p className="text-muted">{user.email}</p>
+            <p className="text-muted text-start">{user.email}</p>
           </div>
         </div>
 
