@@ -1,0 +1,108 @@
+/*Welcome page css*/
+
+.button-color {
+    background-color: blueviolet;
+    border: none;
+    
+}
+.button-color:hover{
+    background-color: blueviolet;
+}
+
+.button-light-color{
+    background-color: rgb(178, 153, 201);
+    border: none;
+}
+.button-light-color:hover{
+    background-color: rgb(178, 153, 201); ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    background-color: rgb(238, 229, 229);
+}
+
+/* SignUp.css */
+.container {
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+
+.form-Heading {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.text-purple {
+  color: #6a1b9a; /* violet-purple */
+  font-weight: 500;
+}
+
+.Asterisk {
+  color: red;
+  margin-left: 2px;
+}
+
+.checkradio {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.checkradio .form-check-input:checked {
+  background-color: #6a1b9a;
+  border-color: #6a1b9a;
+}
+
+.button-color {
+  background-color: #6a1b9a;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.button-color:hover {
+  background-color: #5e1589;
+}
+
+.shadow-lg {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background: white;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .form-Heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-control {
+    font-size: 0.95rem;
+  }
+
+  .form-check-label {
+    font-size: 0.95rem;
+  }
+
+  .button-color {
+    font-size: 1rem;
+  }
+}
+
+
+
+/*Profile page css*/
+.camera{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.btn-disabled{
+    background-color: dimgrey;
+    border: none;
+}
